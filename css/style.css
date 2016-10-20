@@ -1,0 +1,67 @@
+.title {
+	text-align: center;
+	color: black;
+	padding: 0.6em;
+}
+
+
+.footer {
+	font-size: small;
+	display: block;
+	padding: 0em 0em 2em 0em;
+}
+
+
+p {
+  line-height: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+	color: black;
+	font-size: 10pt;
+	font-family: verdana, arial, sans-serif;
+	background: white;
+	padding-top: 1.0em;
+	padding-left: 3.0em;
+	padding-bottom: 2.0em;
+	width:60%;
+}
+
+
+h1 { 
+	color: #000066;
+	font-family: sans-serif;
+}
+
+h2 { 
+	color: #000066;
+	font-family: sans-serif;
+}
+
+h3 { 
+        color: black;
+	font-family: sans-serif;
+}
+
+
+h4 { 
+	color: black;
+	font-family: sans-serif;
+}
+
+h5 { 
+	color: black;
+	font-family: sans-serif;
+}
+
+center {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
