@@ -1,3 +1,5 @@
+
+
 .title {
 	text-align: center;
 	color: black;
@@ -22,7 +24,7 @@ p {
 body {
 	color: black;
 	font-size: 11pt;
-	font-family: verdana, arial, sans-serif;
+	font-family: Optima, Candara, Calibri, Arial, sans-serif;	
 	background: white;
 	padding-top: 1.0em;
 	padding-left: 3.0em;
@@ -32,29 +34,29 @@ body {
 
 
 h1 { 
-	color: #000066;
-	font-family: sans-serif;
+    color: #000066;
+    font-family: Optima, Candara, Calibri, Arial, sans-serif;	    
 }
 
 h2 { 
-	color: #000066;
-	font-family: sans-serif;
+    color: #000066;
+    font-family: Optima, Candara, Calibri, Arial, sans-serif;	        
 }
 
 h3 { 
-        color: black;
-	font-family: sans-serif;
+    color: black;
+    font-family: Optima, Candara, Calibri, Arial, sans-serif;	            
 }
 
 
 h4 { 
-	color: black;
-	font-family: sans-serif;
+    color: black;
+    font-family: Optima, Candara, Calibri, Arial, sans-serif;	            
 }
 
 h5 { 
-	color: black;
-	font-family: sans-serif;
+    color: black;
+    font-family: Optima, Candara, Calibri, Arial, sans-serif;	            
 }
 
 center {
