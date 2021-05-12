@@ -88,7 +88,7 @@
 	  C++ library for static analysis based on abstract interpretation.
 	</li>
 	
-	<li> <a href="https://github.com/seahorn/crab-llvm">
+	<li> <a href="https://github.com/seahorn/clam">
 	Clam </a>: a static analyzer based
 	on <a href="https://github.com/seahorn/crab"> Crab </a> for
 	LLVM.
@@ -96,12 +96,13 @@
 
 	<li> 
 	  <a href="https://github.com/seahorn/sea-dsa"> sea-dsa </a>:
-          a context-,field-, and array-sensitive heap analysis for LLVM.
+          a context-,field-, and array-sensitive pointer analysis for LLVM.
 	</li>	
 
 	<li> 
 	  <a href="https://github.com/vbpf/ebpf-verifier"> PREVAIL </a>:
           a eBPF verifier based on <a href="https://github.com/seahorn/crab"> Crab </a>.
+	  </br> PREVAIL in the news: <a href="https://www.zdnet.com/article/porting-linuxs-ebpf-to-windows-10-and-windows-server/"> [1]</a>, <a href="https://www.bleepingcomputer.com/news/security/microsofts-new-project-ports-linux-ebpf-to-windows-10-server/">[2]</a>.
 	</li>
 	
       </ul>  
@@ -109,15 +110,16 @@
       <h3>Past Projects</h3>
       
       <ul>
-	<li> <a href="http://www.comp.nus.edu.sg/~tracerx/tracer">
-	    TRACER </a>:  interpolation-based symbolic execution tool for
-	  verification of C programs.  
-	</li>
 
 	<li> <a href="https://ti.arc.nasa.gov/opensource/ikos/">
 	IKOS </a>: Inference Kernel for Open Static Analyzers.
 	</li>
-
+	
+	<li> <a href="http://www.comp.nus.edu.sg/~tracerx/tracer">
+	    TRACER </a>:  interpolation-based symbolic execution tool for
+	  verification of C programs.  
+	</li>
+	
 	<li>
 	  <a href="https://github.com/sav-tools/ftclp/"> FTCLP</a>: an interpolation-based solver for recursive Constrained Horn Clauses.
 	</li>
@@ -196,7 +198,8 @@
 	</li>
 	
 	<li>
-	  <b>Automatically Tailoring Abstract Interpretation to Custom Usage Scenarios</b>.
+	  <b>Automatically Tailoring Abstract Interpretation to Custom Usage Scenarios</b>
+	  <a href="papers/tailor_cav2021.pdf">(PDF)</a>.
 	  <br/>
 	  <a href="https://numairmansur.github.io/">M.&nbsp;N.&nbsp;Mansur</a>,
 	  <a href="https://bmarwritescode.github.io/"> B.&nbsp; Mariano </a>,
@@ -226,6 +229,7 @@
 	  <a href="http://www.csl.sri.com/users/bruno/">B.&nbsp;Dutertre</a>,
 	  <a href="http://www.csl.sri.com/people/mason/">I.&nbsp;Mason</a>,
           <br/> <a href="https://sri-csl.github.io/VSTTE20/">VSTTE'20</a>.
+	  <br/> The code of the verifier is available <a href="https://github.com/SRI-CSL/NTT/tree/master/verifier"> here</a>.
 	</li>
 
 	<li>
