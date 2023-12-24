@@ -1,12 +1,12 @@
 I really enjoy both training and running marathons. I haven't run many
-half marathons although I'm planning to do so. My best half marathon
+half marathons although I'm planning to do so. My half marathon
 PR is 1:28:52 from 2018!
 
 This is the list of marathons I've run:
 
 
 | Marathon | Date       | Time    |
-| :-----|------------|:---------|
+| :-----|:------------|:---------|
 | CIM (CA) | 2015 Dec    | 3:38:00 |
 | Fremont (CA) | 2016 Apr  | 3:32:00 |
 | CIM (CA) | 2016 Dec  | 3:26:00 | 
@@ -26,7 +26,6 @@ This is the list of marathons I've run:
 | Santa Rosa (CA) | 2022 Aug  | 3:05:20 | 
 | El Paso (TX) | 2023 Feb | 3:02:22 | 
 | Boston (MA) | 2023 Apr  | 3:19:12 | 
-
-
+| CIM (CA) | 2023 Dec  | 3:07:14 | 
 
 
