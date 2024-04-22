@@ -27,5 +27,7 @@ This is the list of marathons I've run:
 | El Paso (TX) | 2023 Feb | 3:02:22 | 
 | Boston (MA) | 2023 Apr  | 3:19:12 | 
 | CIM (CA) | 2023 Dec  | 3:07:14 | 
+| El Paso (TX) | 2024 Feb | 3:20:45 |
+| Boston (MA) | 2024 Apr | 3:16:56 |
 
 
