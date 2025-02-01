@@ -32,6 +32,10 @@ body {
 	width:100vw;
 }
 
+th, td {
+    padding: 15px;
+}
+
 
 h1 { 
     color: #000066;
