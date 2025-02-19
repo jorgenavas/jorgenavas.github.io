@@ -48,20 +48,21 @@
 
       <h2>About me</h2>
       
-      <p> My passion is the design and implementation of automatic tools
-      that can boost programmers' productivity to make more reliable
-      and secure code. The goal of my research is to improve the
-      process of formally verifying complex software systems. </p>
+      <!-- <p> My passion is the design and implementation of automatic tools -->
+      <!-- that can boost programmers' productivity to make more reliable -->
+      <!-- and secure code. The goal of my research is to improve the -->
+      <!-- process of formally verifying complex software systems. </p> -->
 
-      <p> At Certora, I am developing a new
+      <p> I work for Certora, where I am developing a new
       verification <a href="https://medium.com/certora/formal-verification-of-solana-smart-contracts-2e57b960f953">
       tool </a> for Solana smart contracts. These contracts, together
-      with their specs, are written in Rust and compiled to Solana
-      Binary Format (SBF), which is a variation
+      with their specs, are written in Rust and compiled
+      to <a href="https://solana.com/docs/core/programs">Solana Binary
+      Format (sBPF)</a>, which is a Solana's custom version of
       of <a href="https://ebpf.io/">eBPF</a>.
       </p>
       
-      <p> Before joining Certora, I worked
+      <p> Before Certora, I worked
       at <a href="https://www.sri.com/cyber-formal-methods/"> SRI
       International</a> (2016-2021)
       and <a href="https://www.nasa.gov/isd-robust-software-engineering">NASA
@@ -87,47 +88,52 @@
       
       <h2>Software</h2>
 
-      <h3>Current Projects</h3>
+      <!-- <h3>Current Projects</h3> -->
       <ul>
 	<li>
 	  <a href="http://seahorn.github.io/"> SeaHorn</a>: 
-	  analysis/verification framework for LLVM.
+	  analysis/verification framework for LLVM bitcode.
 	</li>
 	
 	<li> 
-	  <a href="https://github.com/seahorn/crab"> Crab</a>:
-	  C++ library for static analysis based on abstract interpretation.
+	  <a href="https://github.com/seahorn/crab"> Crab</a>: C++
+	  library for static analysis based on abstract
+	  interpretation.
 
 	  <ul>
-	    <li> Tutorial about
-	    Crab in <a href="https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23281">
-		Dagsthul</a> (07/10/2023). The slides can be found <a href="slides/crab-dagstuhl_mod.pptx"> here</a> and the code <a href="https://hub.docker.com/r/seahorn/crab_dagstuhl_23"> here</a>.
+	    <li> Tutorial about Crab
+	    in <a href="https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23281">
+	    Dagsthul</a> (07/10/2023). The slides can be
+	    found <a href="slides/crab-dagstuhl_mod.pptx"> here</a>
+	    and the
+	    code <a href="https://hub.docker.com/r/seahorn/crab_dagstuhl_23">
+	    here</a>.
 	    </li>  
 	  </ul>  
 	</li>
 
-	<li> 
+	<li>
 	  <a href="https://github.com/seahorn/sea-dsa"> Sea-DSA</a>:
-          a pointer analysis for LLVM.
+          a pointer analysis for LLVM bitcode.
 	</li>	
 
-	<li> <a href="https://github.com/seahorn/clam">
-	Clam</a>: a static analyzer based
-	on <a href="https://github.com/seahorn/crab"> Crab</a> and <a href="https://github.com/seahorn/sea-dsa"> Sea-DSA</a> for LLVM.
+	<li> <a href="https://github.com/seahorn/clam"> Clam</a>: a
+	static analyzer based
+	on <a href="https://github.com/seahorn/crab"> Crab</a>
+	and <a href="https://github.com/seahorn/sea-dsa"> Sea-DSA</a>
+	for LLVM bitcode.
 	</li>
 
 
 	<li> 
 	  <a href="https://github.com/vbpf/ebpf-verifier"> PREVAIL</a>:
           eBPF verifier based on <a href="https://github.com/seahorn/crab"> Crab</a>.
-	  <b style="color:red"> **PREVAIL in the news**</b>:<a href="https://www.zdnet.com/article/porting-linuxs-ebpf-to-windows-10-and-windows-server/"> [1]</a>,<a href="https://www.bleepingcomputer.com/news/security/microsofts-new-project-ports-linux-ebpf-to-windows-10-server/">[2]</a>.
+	  <b style="color:red"> **PREVAIL in the news**</b>:<a href="https://www.zdnet.com/article/porting-linuxs-ebpf-to-windows-10-and-windows-server/"> [1]</a>,<a href="https://www.bleepingcomputer.com/news/security/microsofts-new-project-ports-linux-ebpf-to-windows-10-server/">[2]</a>.  PREVAIL is currently used to verify eBPF programs that run on the top of Windows (see <a href="https://github.com/microsoft/ebpf-for-windows">ebpf-for-windows</a> project for more details).
 	</li>
 	
-      </ul>  
-      
-      <h3>Past Projects</h3>
-      
-      <ul>
+      <!-- </ul>   -->
+      <!-- <h3>Past Projects</h3> -->
+      <!-- <ul> -->
 
 	<li> 
 	  <a href="https://github.com/contract-ace/smartace"> SmartACE</a>:
