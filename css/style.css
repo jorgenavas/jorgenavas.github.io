@@ -23,13 +23,13 @@ p {
 
 body {
 	color: black;
-	font-size: 11pt;
+	font-size: 12pt;
 	font-family: Optima, Candara, Calibri, Arial, sans-serif;	
 	background: white;
 	padding-top: 1.0em;
 	padding-left: 3.0em;
 	padding-bottom: 2.0em;
-	width:100vw;
+	width:80vw;
 }
 
 th, td {
