@@ -29,6 +29,10 @@ body {
     border-spacing: 0px;
     padding: 0px;
     line-height: 20px;
+    color: black;
+    font-size: 15pt;
+    font-family: Optima, Candara, Calibri, Arial, sans-serif;	
+    background: white;    
 }
 
 a {
