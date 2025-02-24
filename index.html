@@ -62,9 +62,9 @@
   am developing a new
   verification <a href="https://medium.com/certora/formal-verification-of-solana-smart-contracts-2e57b960f953">
   tool </a> for Solana smart contracts. These contracts, together with
-  their specs, are written in Rust and compiled
-  to <a href="https://solana.com/docs/core/programs">Solana Binary
-  Format (sBPF)</a>, which is a Solana's custom version of
+  their specs, are written in Rust and compiled to Solana Binary
+  Format <a href="https://solana.com/docs/core/programs">(sBPF)</a>,
+  which is a Solana's custom version of
   <a href="https://ebpf.io/">eBPF</a>.  This tool uses Abstract
   Interpretation to translate sBPF to efficient and sound verification
   conditions, which in turn, are solved by SMT solvers.
@@ -102,12 +102,18 @@
       <!-- <h3>Current Projects</h3> -->
       <ul>
 	<li>
-	  <a href="http://seahorn.github.io/"> SeaHorn</a>: 
+	  <a href="http://https://github.com/Certora/CertoraProver/">The Certora
+	  Prover </a>: automated formal verification of smart
+	  contracts running on EVM-based chains, Solana and Stellar.
+	</li>
+
+	<li>
+	  <a href="http://seahorn.github.io/">SeaHorn</a>: 
 	  analysis/verification framework for LLVM bitcode.
 	</li>
 	
 	<li> 
-	  <a href="https://github.com/seahorn/crab"> Crab</a>: C++
+	  <a href="https://github.com/seahorn/crab">Crab</a>: C++
 	  library for static analysis based on abstract
 	  interpretation.
 
@@ -124,22 +130,21 @@
 	</li>
 
 	<li>
-	  <a href="https://github.com/seahorn/sea-dsa"> Sea-DSA</a>:
+	  <a href="https://github.com/seahorn/sea-dsa">Sea-DSA</a>:
           a pointer analysis for LLVM bitcode.
 	</li>	
 
-	<li> <a href="https://github.com/seahorn/clam"> Clam</a>: a
+	<li> <a href="https://github.com/seahorn/clam">Clam</a>: a
 	static analyzer based
-	on <a href="https://github.com/seahorn/crab"> Crab</a>
-	and <a href="https://github.com/seahorn/sea-dsa"> Sea-DSA</a>
+	on <a href="https://github.com/seahorn/crab">Crab</a>
+	and <a href="https://github.com/seahorn/sea-dsa">Sea-DSA</a>
 	for LLVM bitcode.
 	</li>
 
 
 	<li> 
-	  <a href="https://github.com/vbpf/ebpf-verifier">
-          PREVAIL</a>: eBPF verifier based
-          on <a href="https://github.com/seahorn/crab"> Crab</a>.
+	  <a href="https://github.com/vbpf/ebpf-verifier">PREVAIL</a>: eBPF verifier based
+          on <a href="https://github.com/seahorn/crab">Crab</a>.
 	  <ul>
 	    <li>
               PREVAIL is currently used to verify eBPF programs that run
@@ -159,7 +164,7 @@
       <!-- <ul> -->
 
 	<li> 
-	  <a href="https://github.com/contract-ace/smartace"> SmartACE</a>:
+	  <a href="https://github.com/contract-ace/smartace">SmartACE</a>:
           A verifier of Solidity smart contracts based on SeaHorn.
 	  <ul>
 	    <li>
@@ -169,20 +174,19 @@
 	</li>
 	
 	<li> 
-	  <a href="https://github.com/SRI-CSL/OCCAM"> OCCAMv2</a>:
+	  <a href="https://github.com/SRI-CSL/OCCAM">OCCAMv2</a>:
           A whole-program debloater for LLVM bitcode. 
 	</li>		
 	<li> <a href="https://ti.arc.nasa.gov/opensource/ikos/">
 	IKOS</a>: Inference Kernel for Open Static Analyzers. <b style="color:red"> **NASA Group Achievement Award**</b> in <a href="https://www.nasa.gov/content/division-awards-0">2014</a>.
 	</li>
 	
-	<li> <a href="http://www.comp.nus.edu.sg/~tracerx/tracer">
-	    TRACER</a>:  interpolation-based symbolic execution tool for
+	<li> <a href="http://www.comp.nus.edu.sg/~tracerx/tracer">TRACER</a>:  interpolation-based symbolic execution tool for
 	  verification of C programs.  
 	</li>
 	
 	<li>
-	  <a href="https://github.com/caballa/ftclp"> FTCLP</a>: interpolation-based solver for recursive Constrained Horn Clauses.
+	  <a href="https://github.com/caballa/ftclp">FTCLP</a>: interpolation-based solver for recursive Constrained Horn Clauses.
 	</li>
 	
 	<li>
@@ -195,10 +199,10 @@
 	    Revenant</a>: string solver. 
 	</li>
 	
-	<li> <a href="https://github.com/caballa/covenant"> Covenant</a>: semi-decider for intersection of context-free languages.
+	<li> <a href="https://github.com/caballa/covenant">Covenant</a>: semi-decider for intersection of context-free languages.
 	</li>
 	
-	<li> <a href="https://github.com/ciao-lang/ciaopp"> The Ciao Preprocessor
+	<li> <a href="https://github.com/ciao-lang/ciaopp">The Ciao Preprocessor
 	 </a>: a program analyzer for debugging, verification, and
 	  optimization for the Ciao programming language. 
 	</li>
