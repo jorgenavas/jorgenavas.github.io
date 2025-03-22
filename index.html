@@ -7,21 +7,21 @@
 
     <meta name="description" content=" Jorge A. Navas is a senior
     researcher at Certora. Before, he was a senior computer scientist
-    in the Computer Science Lab (CSL) at SRI International, a research
-    engineer in the Robust Software Engineering Group at NASA Ames
-    Research Center, a senior research fellow at The University of
-    Melbourne, and a research fellow at the National University of
-    Singapore working with Joxan Jaffar. Even before that, he was a
-    PhD student at the University of New Mexico working with Manuel
-    Hermenegildo. His research area is Programming Languages and among
-    his main interests are the design and development of tools for
-    program verification and analysis of complex systems.">
+    at SRI International, a research engineer in the Robust Software
+    Engineering Group at NASA Ames Research Center, a senior research
+    fellow at The University of Melbourne, and a research fellow at
+    the National University of Singapore working with Joxan
+    Jaffar. Even before that, he was a PhD student at the University
+    of New Mexico working with Manuel Hermenegildo. His research area
+    is Programming Languages and among his main interests are the
+    design and development of tools for program verification and
+    analysis of complex systems.">
 
     <meta name="keywords" content="Jorge Navas, Formal Methods,
    Software Verification, Static Analysis, Abstract Interpretation,
-   Symbolic Execution, Model Checking, C, C++, Horn Clauses,
-   Constraint Logic Programming (CLP), LLVM, SeaHorn, Crab, Clam,
-   SeaDsa, Ikos, TRACER">
+   Symbolic Execution, Model Checking, C, C++, Rust, eBPF, Horn
+   Clauses, Constraint Logic Programming (CLP), LLVM, SeaHorn, Crab,
+   Clam, SeaDsa, Ikos, TRACER">
 
     <title>Jorge Navas Homepage</title>
   
@@ -62,7 +62,7 @@
   am developing a new
   verification <a href="https://medium.com/certora/formal-verification-of-solana-smart-contracts-2e57b960f953">
   tool </a> for Solana smart contracts. These contracts, together with
-  their specs, are written in Rust and compiled to Solana Binary
+  their specs, are written in <a href="https://crates.io/crates/cvlr">Rust</a> and compiled to Solana Binary
   Format <a href="https://solana.com/docs/core/programs">(sBPF)</a>,
   which is a Solana's custom version of
   <a href="https://ebpf.io/">eBPF</a>.  This tool uses Abstract
@@ -102,9 +102,11 @@
       <!-- <h3>Current Projects</h3> -->
       <ul>
 	<li>
-	  <a href="https://github.com/Certora/CertoraProver">The Certora
-	  Prover </a>: automated formal verification of smart
-	  contracts running on EVM-based chains, Solana and Stellar.
+	  <a href="https://github.com/Certora/CertoraProver">The
+	  Certora Prover </a>: automated formal verification of smart
+	  contracts running on EVM-based chains, Solana and
+	  Stellar. Solana specifications are written in Rust
+	  using <a href="https://crates.io/crates/cvlr">CVLR</a>. 
 	</li>
 
 	<li>
@@ -791,7 +793,7 @@
 	
 
      <div id="footer">
-     Last modified February 2025
+     Last modified March 2025
      </div>
 
 
