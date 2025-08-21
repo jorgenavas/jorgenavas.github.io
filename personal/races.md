@@ -1,8 +1,6 @@
-I really enjoy both training and running marathons. I haven't run many
-half marathons although I'm planning to do so. My half marathon
-PR is 1:28:52 from 2018.
+I don’t enjoy it as much as I used to, but I still like training and
+running marathons. Here’s a list of the marathons I’ve run:
 
-This is the list of marathons I've run:
 
 
 | Marathon | Date       | Time    |
@@ -30,5 +28,17 @@ This is the list of marathons I've run:
 | El Paso (TX) | 2024 Feb | 3:20:45 |
 | Boston (MA) | 2024 Apr | 3:16:56 |
 | Erie (PA) | 2024 Sep | 3:05:59 |
+| Las Vegas (NE) | 2025 Oct | Coming! |
+
+
+I didn’t keep a record of my half-marathons, but I’ll start doing so
+from now on. The last one I ran was in 2018
+
+
+
+| Half-marathon | Date       | Time    |
+| :-----|:------------|:---------|
+| San Francisco (CA) | 2018 Feb    | 1:28:52 |
+
 
 
