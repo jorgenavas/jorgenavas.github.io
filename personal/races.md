@@ -28,7 +28,7 @@ running marathons. Here’s a list of the marathons I’ve run:
 | El Paso (TX) | 2024 Feb | 3:20:45 |
 | Boston (MA) | 2024 Apr | 3:16:56 |
 | Erie (PA) | 2024 Sep | 3:05:59 |
-| Las Vegas (NE) | 2025 Oct | Coming! |
+| Las Vegas (NE) | 2025 Oct | 2:55:36 |
 | El Paso (TX) | 2026 Feb | Coming! |
 | Boston (MA) | 2026 Apr | Qualified! |
 
