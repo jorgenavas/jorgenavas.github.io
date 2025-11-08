@@ -4,28 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Marathons & Half-Marathons</title>
-  <style>
-    /* Base styles */
+
+<style>
+    /* --- Base Styles --- */
+    :root {
+      --accent: #005bb5;
+      --light-bg: #f9fafc;
+    }
     body {
-      font-family: “Segoe UI”, Tahoma, Geneva, Verdana, sans-serif;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
-      line-height: 1.6;
+      background: var(--light-bg);
       color: #333;
-      background: #fafafa;
+      line-height: 1.6;
     }
     header {
-      background: #0066cc;
+      background: var(--accent);
       color: #fff;
-      padding: 2rem 1rem;
       text-align: center;
+      padding: 2.5rem 1rem;
     }
     header h1 {
       margin: 0;
       font-size: 2rem;
     }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
     main {
-      max-width: 800px;
+      max-width: 900px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
@@ -33,73 +42,60 @@
       margin-bottom: 3rem;
     }
     section h2 {
-      border-bottom: 2px solid #eee;
-      padding-bottom: 0.5rem;
+      color: var(--accent);
+      border-bottom: 2px solid #e5e9f0;
+      padding-bottom: 0.4rem;
       margin-bottom: 1rem;
-      color: #0066cc;
     }
 
-    /* Table styling */
+    /* --- Table Styling --- */
+    .table-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-bottom: 1rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      min-width: 480px; /* ensures horizontal scroll on very narrow screens */
     }
     thead {
-      background-color: #0066cc;
+      background: var(--accent);
       color: #fff;
     }
-    thead th {
-      padding: 0.75rem 0.5rem;
+    th,
+    td {
       text-align: left;
-    }
-    tbody tr {
-      background: #fff;
-    }
-    tbody tr:nth-child(even) {
-      background: #f4f8fc;   /* zebra-striping */
-    }
-    tbody td {
       padding: 0.75rem 0.5rem;
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid #eaeaea;
     }
-    tbody tr:hover {
-      background: #e8f3ff;
+    tr:nth-child(even) td {
+      background: #f6f8fb;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     caption {
-      caption-side: bottom;
       text-align: left;
       font-style: italic;
-      padding-top: 0.5rem;
+      padding: 0.5rem;
       color: #666;
     }
 
-    /* Responsive tweaks */
-    @media (max-width: 600px) {
-      thead {
-        display: none;
-      }
-      table, tbody, tr, td {
-        display: block;
-        width: 100%;
-      }
-      tbody tr {
-        margin-bottom: 1rem;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        overflow: hidden;
-      }
-      tbody td {
-        display: flex;
-        justify-content: space-between;
-        padding: 0.75rem 0.5rem;
-      }
-      tbody td::before {
-        content: attr(data-label);
-        font-weight: bold;
-        color: #0066cc;
-      }
+    /* --- Footer --- */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      background: #f0f3f8;
     }
   </style>
 </head>
