@@ -118,7 +118,7 @@ details p {
 @media (max-width: 768px) {
   body {
     padding: 0.8em;
-    font-size: 13pt;
+    font-size: 16pt;
   }
 
   table {
@@ -126,15 +126,16 @@ details p {
   }
 
   h1 {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   h2 {
-    font-size: 1.2em;
+    font-size: 1.25em;
   }
 }
 
 @media (min-width: 769px) {
   details {
-    display: none; /* hide collapsible version on desktop */
+      display: none; /* hide collapsible version on desktop */
+      font-size: 15pt; /* ensure collapsible items also scale */      
   }
 }
