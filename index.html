@@ -31,12 +31,13 @@
 
 <body>
   
-<h1>Jorge A. Navas</h1>
-  
-<table class="title">
-<tr> <td> Formal Verification Researcher&amp;Engineer @<a href="http://www.certora.com/">Certora</a> </td></tr>
-<tr> <td> <a href="mailto:navasjorgea@gmail.com">navasjorgea@gmail.com</a> </td> </tr>
-</table>
+<!-- <h1>Jorge A. Navas</h1> -->
+<!-- <header> -->
+<!-- <table class="title"> -->
+<!-- <tr> <td> Formal Verification Researcher&amp;Engineer @<a href="http://www.certora.com/">Certora</a> </td></tr> -->
+<!-- <tr> <td> <a href="mailto:navasjorgea@gmail.com">navasjorgea@gmail.com</a> </td> </tr> -->
+<!-- </table> -->
+<!-- </header> -->
 
 <!-- <table> -->
 <!-- <tr> -->
@@ -48,783 +49,793 @@
 <!-- </td> -->
 <!-- </tr> -->
 <!-- </table> -->
-
 <!-- <hr> -->
 
-<h2>About me</h2>
+    <header>
+        <h1>Jorge A. Navas</h1>
+        <address>
+            Formal Verification Researcher&amp;Engineer @<a href="http://www.certora.com/">Certora</a><br>
+            <a href="mailto:navasjorgea@gmail.com">navasjorgea@gmail.com</a>
+        </address>
+    </header>
+    
 
-<!-- <p> My passion is the design and implementation of automatic tools -->
-<!-- that can boost programmers' productivity to make more reliable -->
-<!-- and secure code. The goal of my research is to improve the -->
-<!-- process of formally verifying complex software systems. </p> -->
+    <main>
+      <section id="about">
+	<h2>About me</h2>
 
-<p> I work for <a href="http://www.certora.com/">Certora</a>, where I
-  am developing a new
-  verification <a href="https://medium.com/certora/formal-verification-of-solana-smart-contracts-2e57b960f953">
-  tool </a> for Solana smart contracts. These contracts, together with
-  their specs, are written in <a href="https://crates.io/crates/cvlr">Rust</a> and compiled to Solana Binary
-  Format <a href="https://solana.com/docs/core/programs">(sBPF)</a>,
-  which is a Solana's custom version of
-  <a href="https://ebpf.io/">eBPF</a>.  This tool uses Abstract
-  Interpretation to translate sBPF to efficient and sound verification
-  conditions, which in turn, are solved by SMT solvers.
-</p>
+	  <!-- <p> My passion is the design and implementation of automatic tools -->
+	  <!-- that can boost programmers' productivity to make more reliable -->
+	  <!-- and secure code. The goal of my research is to improve the -->
+	  <!-- process of formally verifying complex software systems. </p> -->
 
-<p> Before Certora, I worked
-  for <a href="https://www.sri.com/cyber-formal-methods/">SRI</a>
-  (2016-2021)
-  and <a href="https://www.nasa.gov/isd-robust-software-engineering">NASA</a>
-  (2013-2016). <br>
-   
-  Before that, I enjoyed my post-doc life
-  at <a href="https://cis.unimelb.edu.au/">University of Melbourne</a>
-  (2011-2013) and
-  <a href="https://www.comp.nus.edu.sg/cs/">National University of
-  Singapore</a> (2008-2011). <br>
+	<p> I work for <a href="http://www.certora.com/">Certora</a>, where I
+	  am developing a new
+	  verification <a href="https://medium.com/certora/formal-verification-of-solana-smart-contracts-2e57b960f953">
+	    tool </a> for Solana smart contracts. These contracts, together with
+	  their specs, are written in <a href="https://crates.io/crates/cvlr">Rust</a> and compiled to Solana Binary
+	  Format <a href="https://solana.com/docs/core/programs">(sBPF)</a>,
+	  which is a Solana's custom version of
+	  <a href="https://ebpf.io/">eBPF</a>.  This tool uses Abstract
+	  Interpretation to translate sBPF to efficient and sound verification
+	  conditions, which in turn, are solved by SMT solvers.
+	</p>
 
-  I got a PhD in Computer Science from
-  the <a href="https://www.cs.unm.edu/"> University of New Mexico </a>
-  in 2008, and a B.Sc in Computer Science
-  from <a href="https://www.fi.upm.es/">Technical University of
-  Madrid</a> in 2003. <br>
-</p>
-
-<p>
-  I work remotely
-  from <a href="https://en.wikipedia.org/wiki/El_Paso,_Texas">El Paso
-  (Texas)</a>. I am
-  from <a href="https://en.wikipedia.org/wiki/Ceuta">Ceuta</a>, a
-  beautiful Spanish city on the North African coast.  Outside of work,
-  I enjoy spending time with my family
-  and <a href="personal/races.html">running</a>.
-</p>
-
-      
-      <h2>Software</h2>
-
-      <!-- <h3>Current Projects</h3> -->
-      <ul>
-	<li>
-	  <a href="https://github.com/Certora/CertoraProver">The
-	  Certora Prover </a>: automated formal verification of smart
-	  contracts running on EVM-based chains, Solana and
-	  Stellar.
-	  <ul>
-	    <li><a href="https://crates.io/crates/cvlr">CVLR</a>: Certora Verification Language for Rust.</li>
-	    <li> <a href="https://github.com/Certora/certora-vault-tutorial">Tutorial</a> about the Solana prover.</li>
-	  </ul>
-	</li>
-
-	<li>
-	  <a href="http://seahorn.github.io/">SeaHorn</a>: 
-	  analysis/verification framework for LLVM bitcode.
-	</li>
-	
-	<li> 
-	  <a href="https://github.com/seahorn/crab">Crab</a>: C++
-	  library for static analysis based on abstract
-	  interpretation.
-
-	  <ul>
-	    <li> Tutorial about Crab
-	    in <a href="https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23281">
-	    Dagsthul</a> (07/10/2023). The slides can be
-	    found <a href="slides/crab-dagstuhl_mod.pptx"> here</a>
-	    and the
-	    code <a href="https://hub.docker.com/r/seahorn/crab_dagstuhl_23">
-	    here</a>.
-	    </li>  
-	  </ul>  
-	</li>
-
-	<li>
-	  <a href="https://github.com/seahorn/sea-dsa">Sea-DSA</a>:
-          a pointer analysis for LLVM bitcode.
-	</li>	
-
-	<li> <a href="https://github.com/seahorn/clam">Clam</a>: a
-	static analyzer based
-	on <a href="https://github.com/seahorn/crab">Crab</a>
-	and <a href="https://github.com/seahorn/sea-dsa">Sea-DSA</a>
-	for LLVM bitcode.
-	</li>
-
-
-	<li> 
-	  <a href="https://github.com/vbpf/ebpf-verifier">PREVAIL</a>: eBPF verifier based
-          on <a href="https://github.com/seahorn/crab">Crab</a>.
-	  <ul>
-	    <li>
-              PREVAIL is currently used to verify eBPF programs that run
-              on the top of Windows
-              (see <a href="https://github.com/microsoft/ebpf-for-windows">ebpf-for-windows</a>
-              project for more details).
-	    </li>
-	    <li>
-	      <b style="color:red"> **PREVAIL in the news**</b>:<a href="https://www.zdnet.com/article/porting-linuxs-ebpf-to-windows-10-and-windows-server/">
-		[1]</a>,<a href="https://www.bleepingcomputer.com/news/security/microsofts-new-project-ports-linux-ebpf-to-windows-10-server/">[2]</a>.
-	    </li>
-	  </ul>
-	</li>
-	
-      <!-- </ul>   -->
-      <!-- <h3>Past Projects</h3> -->
-      <!-- <ul> -->
-
-	<li> 
-	  <a href="https://github.com/contract-ace/smartace">SmartACE</a>:
-          A verifier of Solidity smart contracts based on SeaHorn.
-	  <ul>
-	    <li>
-	      Check out several blog posts <a href="http://seahorn.github.io/smartace/install/docker/2020/06/08/smartace-installation.html">here</a>.
-	    </li>
-	  </ul>
-	</li>
-	
-	<li> 
-	  <a href="https://github.com/SRI-CSL/OCCAM">OCCAMv2</a>:
-          A whole-program debloater for LLVM bitcode.
-	  <ul>
-	    <li>
-	      <a href="papers/CACM-2023.OCCAMv2.pdf">Article</a> in
-	      Communications of the ACM describing the tool.
-	    </li>
-	  </ul>
+	<p> Before Certora, I worked
+	  for <a href="https://www.sri.com/cyber-formal-methods/">SRI</a>
+	  (2016-2021)
+	  and <a href="https://www.nasa.gov/isd-robust-software-engineering">NASA</a>
+	  (2013-2016). <br>
 	  
-	</li>		
-	<li> <a href="https://ti.arc.nasa.gov/opensource/ikos/">
-	    IKOS</a>: Inference Kernel for Open Static Analyzers
-	  <ul>
-	    <li>
-	      <b style="color:red"> **NASA Group Achievement Award**</b> in <a href="https://www.nasa.gov/content/division-awards-0">2014</a>.
-	    </li>
-	  </ul>
+	  Before that, I enjoyed my post-doc life
+	  at <a href="https://cis.unimelb.edu.au/">University of Melbourne</a>
+	  (2011-2013) and
+	  <a href="https://www.comp.nus.edu.sg/cs/">National University of
+	    Singapore</a> (2008-2011). <br>
+
+	  I got a PhD in Computer Science from
+	  the <a href="https://www.cs.unm.edu/"> University of New Mexico </a>
+	  in 2008, and a B.Sc in Computer Science
+	  from <a href="https://www.fi.upm.es/">Technical University of
+	    Madrid</a> in 2003. <br>
+	</p>
+
+	<p>
+	  I work remotely
+	  from <a href="https://en.wikipedia.org/wiki/El_Paso,_Texas">El Paso
+	    (Texas)</a>. I am
+	  from <a href="https://en.wikipedia.org/wiki/Ceuta">Ceuta</a>, a
+	  beautiful Spanish city on the North African coast.  Outside of work,
+	  I enjoy spending time with my family
+	  and <a href="personal/races.html">running</a>.
+	</p>
+      </section>
+
+      <section id="software">
+	<h2>Software</h2>
+
+	<ul>
+	  <li>
+	    <a href="https://github.com/Certora/CertoraProver">The
+	      Certora Prover </a>: automated formal verification of smart
+	    contracts running on EVM-based chains, Solana and
+	    Stellar.
+	    <ul>
+	      <li><a href="https://crates.io/crates/cvlr">CVLR</a>: Certora Verification Language for Rust.</li>
+	      <li> <a href="https://github.com/Certora/certora-vault-tutorial">Tutorial</a> about the Solana prover.</li>
+	    </ul>
+	  </li>
+
+	  <li>
+	    <a href="http://seahorn.github.io/">SeaHorn</a>: 
+	    analysis/verification framework for LLVM bitcode.
+	  </li>
 	  
-	</li>
-	
-	<li> <a href="http://www.comp.nus.edu.sg/~tracerx/tracer">TRACER</a>:  interpolation-based symbolic execution tool for
-	  verification of C programs.  
-	</li>
-	
-	<li>
-	  <a href="https://github.com/caballa/ftclp">FTCLP</a>: interpolation-based solver for recursive Constrained Horn Clauses.
-	</li>
-	
-	<li>
-	  <a href="https://github.com/caballa/wrapped-intervals">
-	    Wrapped Interval Analysis</a>: static analyzer of LLVM
+	  <li> 
+	    <a href="https://github.com/seahorn/crab">Crab</a>: C++
+	    library for static analysis based on abstract
+	    interpretation.
+
+	    <ul>
+	      <li> Tutorial about Crab
+		in <a href="https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23281">
+		  Dagsthul</a> (07/10/2023). The slides can be
+		found <a href="slides/crab-dagstuhl_mod.pptx"> here</a>
+		and the
+		code <a href="https://hub.docker.com/r/seahorn/crab_dagstuhl_23">
+		  here</a>.
+	      </li>  
+	    </ul>  
+	  </li>
+
+	  <li>
+	    <a href="https://github.com/seahorn/sea-dsa">Sea-DSA</a>:
+            a pointer analysis for LLVM bitcode.
+	  </li>	
+
+	  <li> <a href="https://github.com/seahorn/clam">Clam</a>: a
+	    static analyzer based
+	    on <a href="https://github.com/seahorn/crab">Crab</a>
+	    and <a href="https://github.com/seahorn/sea-dsa">Sea-DSA</a>
+	    for LLVM bitcode.
+	  </li>
+
+
+	  <li> 
+	    <a href="https://github.com/vbpf/ebpf-verifier">PREVAIL</a>: eBPF verifier based
+            on <a href="https://github.com/seahorn/crab">Crab</a>.
+	    <ul>
+	      <li>
+		PREVAIL is currently used to verify eBPF programs that run
+		on the top of Windows
+		(see <a href="https://github.com/microsoft/ebpf-for-windows">ebpf-for-windows</a>
+		project for more details).
+	      </li>
+	      <li>
+		<span class="news">**PREVAIL in the news**</span>:<a href="https://www.zdnet.com/article/porting-linuxs-ebpf-to-windows-10-and-windows-server/">
+		  [1]</a>,<a href="https://www.bleepingcomputer.com/news/security/microsofts-new-project-ports-linux-ebpf-to-windows-10-server/">[2]</a>.
+	      </li>
+	    </ul>
+	  </li>
+	  
+	  <li> 
+	    <a href="https://github.com/contract-ace/smartace">SmartACE</a>:
+            A verifier of Solidity smart contracts based on SeaHorn.
+	    <ul>
+	      <li>
+		Check out several blog posts <a href="http://seahorn.github.io/smartace/install/docker/2020/06/08/smartace-installation.html">here</a>.
+	      </li>
+	    </ul>
+	  </li>
+	  
+	  <li> 
+	    <a href="https://github.com/SRI-CSL/OCCAM">OCCAMv2</a>:
+            A whole-program debloater for LLVM bitcode.
+	    <ul>
+	      <li>
+		<a href="papers/CACM-2023.OCCAMv2.pdf">Article</a> in
+		Communications of the ACM describing the tool.
+	      </li>
+	    </ul>
+	    
+	  </li>		
+	  <li> <a href="https://ti.arc.nasa.gov/opensource/ikos/">
+	      IKOS</a>: Inference Kernel for Open Static Analyzers
+	    <ul>
+	      <li>
+		<span class="award">**NASA Group Achievement Award**</span> in <a href="https://www.nasa.gov/content/division-awards-0">2014</a>.
+	      </li>
+	    </ul>
+	    
+	  </li>
+	  
+	  <li> <a href="http://www.comp.nus.edu.sg/~tracerx/tracer">TRACER</a>:  interpolation-based symbolic execution tool for
+	    verification of C programs.  
+	  </li>
+	  
+	  <li>
+	    <a href="https://github.com/caballa/ftclp">FTCLP</a>: interpolation-based solver for recursive Constrained Horn Clauses.
+	  </li>
+	  
+	  <li>
+	    <a href="https://github.com/caballa/wrapped-intervals">
+	      Wrapped Interval Analysis</a>: static analyzer of LLVM
 	    bitcode specialized for fixed-width integers.
-	</li> 
-	
-	<li> <a href="http://people.eng.unimelb.edu.au/gkgange/revenant/">
-	    Revenant</a>: string solver. 
-	</li>
-	
-	<li> <a href="https://github.com/caballa/covenant">Covenant</a>: semi-decider for intersection of context-free languages.
-	</li>
-	
-	<li> <a href="https://github.com/ciao-lang/ciaopp">The Ciao Preprocessor
-	 </a>: a program analyzer for debugging, verification, and
-	  optimization for the Ciao programming language. 
-	</li>
-      </ul> 
-      
+	  </li> 
+	  
+	  <li> <a href="http://people.eng.unimelb.edu.au/gkgange/revenant/">
+	      Revenant</a>: string solver. 
+	  </li>
+	  
+	  <li> <a href="https://github.com/caballa/covenant">Covenant</a>: semi-decider for intersection of context-free languages.
+	  </li>
+	  
+	  <li> <a href="https://github.com/ciao-lang/ciaopp">The Ciao Preprocessor
+	    </a>: a program analyzer for debugging, verification, and
+	    optimization for the Ciao programming language. 
+	  </li>
+	</ul> 
+      </section>      
 
-      <h2> Recent Service Activitives </h2>
-      
-      <ul>
-	<li> 2026: <a href="https://conf.researchr.org/home/VMCAI-2026">VMCAI</a>, <a href="https://conferences.i-cav.org/2026/">CAV</a>. </li>	
-	<li> 2025: <a href="https://etaps.org/2025/conferences/tacas/">TACAS</a>, <a href="https://2025.splashcon.org/home/sas-2025">SAS</a>, <a href="https://shemesh.larc.nasa.gov/nfm2025/">NFM</a>, <a href=" https://www.dagstuhl.de/25421">Dagstuhl Seminar 25421</a>. </li>	
-	<li> 2024: <a href="https://pldi24.sigplan.org/">PLDI</a>, <a href="http://i-cav.org/2024/"> CAV</a>, <a href="https://2024.splashcon.org/home/sas-2024"> SAS</a>.
-	</li>
-	<li> 2023: <a href="https://popl23.sigplan.org/home/VMCAI-2023">VMCAI</a>, <a href="https://conf.researchr.org/home/sas-2023">SAS</a>, <a href="https://www.uantwerpen.be/en/conferences/confest-2023/fmics/">FMICS</a>, <a href="https://easychair.org/smart-program/LPAR2023/">LPAR</a>.
-	</li>
-	<li> 2022: <a href="https://popl22.sigplan.org/home/VMCAI-2022">VMCAI</a>, <a href="https://2022.splashcon.org/home/sas-2022">SAS</a>, <a href="https://pldi22.sigplan.org/"> PLDI</a>. 
-	</li>
-	<!-- <li> 2021: <a href="https://popl21.sigplan.org/home/VMCAI-2021">VMCAI</a>, <a href="http://saks.iasi.cnr.it/lopstr21/">LOPSTR</a>. -->
-	<!-- </li> -->
-	<!-- <li> 2020: <a href="https://easychair.org/smart-program/LPAR23/">LPAR</a>, -->
-	<!--   <a href="https://sri-csl.github.io/VSTTE20/">VSTTE</a>. -->
-	<!-- </li> -->
+      <section id="service">
+	<h2> Recent Service Activitives </h2>
+	
+	<ul>
+	  <li> 2026: <a href="https://conf.researchr.org/home/VMCAI-2026">VMCAI</a>, <a href="https://conferences.i-cav.org/2026/">CAV</a>. </li>	
+	  <li> 2025: <a href="https://etaps.org/2025/conferences/tacas/">TACAS</a>, <a href="https://2025.splashcon.org/home/sas-2025">SAS</a>, <a href="https://shemesh.larc.nasa.gov/nfm2025/">NFM</a>, <a href=" https://www.dagstuhl.de/25421">Dagstuhl Seminar 25421</a>. </li>	
+	  <li> 2024: <a href="https://pldi24.sigplan.org/">PLDI</a>, <a href="http://i-cav.org/2024/"> CAV</a>, <a href="https://2024.splashcon.org/home/sas-2024"> SAS</a>.
+	  </li>
+	  <li> 2023: <a href="https://popl23.sigplan.org/home/VMCAI-2023">VMCAI</a>, <a href="https://conf.researchr.org/home/sas-2023">SAS</a>, <a href="https://www.uantwerpen.be/en/conferences/confest-2023/fmics/">FMICS</a>, <a href="https://easychair.org/smart-program/LPAR2023/">LPAR</a>.
+	  </li>
+	  <li> 2022: <a href="https://popl22.sigplan.org/home/VMCAI-2022">VMCAI</a>, <a href="https://2022.splashcon.org/home/sas-2022">SAS</a>, <a href="https://pldi22.sigplan.org/"> PLDI</a>. 
+	  </li>
+	  <!-- <li> 2021: <a href="https://popl21.sigplan.org/home/VMCAI-2021">VMCAI</a>, <a href="http://saks.iasi.cnr.it/lopstr21/">LOPSTR</a>. -->
+	  <!-- </li> -->
+	  <!-- <li> 2020: <a href="https://easychair.org/smart-program/LPAR23/">LPAR</a>, -->
+	  <!--   <a href="https://sri-csl.github.io/VSTTE20/">VSTTE</a>. -->
+	  <!-- </li> -->
 	</ul>
+      </section>
 
+      <section id="publications">
         <h2>  Peer-Reviewed Publications [ <a href="https://dblp.org/pid/77/4230a.html"> DBLP</a> | <a href="https://scholar.google.com/citations?user=JS8ThNUAAAAJ&hl=en"> Google Scholar</a>] </h2>
 
-      <ol reversed="reversed">
+	<ol reversed="reversed">
 
-	 <li>
-	   <b>A Flow-Sensitive Refinement Type System for Verifying eBPF Programs</b>
-	   <a href="papers/types-ebpf-oopsla-2025.pdf">(PDF)</a>.
-	   <br>
-	   Ameer&nbsp;Hanza,
-	   Lucas&nbsp;Zavalia,	   
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,	   
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="https://www.cs.fsu.edu/~grigory/">Grigory&nbsp;Fedyukovich</a>.
-	  <br>
-	  <a href="https://2025.splashcon.org/track/OOPSLA">OOPSLA'25</a>.
-	  These are the <a href="slides/oopsla25.pptx">slides</a> from the OOPSLA talk.	  	  
-	</li>
-	 
-	 <li>
-	   <b>Template DBM: A New Weakly Relational Domain for Efficient Memory-Access Validation</b>
-	   <a href="papers/TemplateDBM_VSTTE2025.pdf">(PDF)</a>.
-	  <br>
-	  <a href="https://github.com/LinerSu">Yusen&nbsp;Su</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>.
-	  <br>
-	  <a href="https://systemf.epfl.ch/etc/vstte2025">VSTTE'25</a>.
-	</li>
+	  <li>
+	    <span class="paper">A Flow-Sensitive Refinement Type System for Verifying eBPF Programs</span>
+	    <a href="papers/types-ebpf-oopsla-2025.pdf">(PDF)</a>.
+	    <br>
+	    Ameer&nbsp;Hanza,
+	    Lucas&nbsp;Zavalia,	   
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,	   
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="https://www.cs.fsu.edu/~grigory/">Grigory&nbsp;Fedyukovich</a>.
+	    <br>
+	    <a href="https://2025.splashcon.org/track/OOPSLA">OOPSLA'25</a>.
+	    These are the <a href="slides/oopsla25.pptx">slides</a> from the OOPSLA talk.	  	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Template DBM: A New Weakly Relational Domain for Efficient Memory-Access Validation</span>
+	    <a href="papers/TemplateDBM_VSTTE2025.pdf">(PDF)</a>.
+	    <br>
+	    <a href="https://github.com/LinerSu">Yusen&nbsp;Su</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>.
+	    <br>
+	    <a href="https://systemf.epfl.ch/etc/vstte2025">VSTTE'25</a>.
+	  </li>
 
-	 
-	 <li>
-	   <b>Automatic Inference of Relational Object Invariants</b>
-	   <a href="papers/ObjectDomain_VMCAI2025.pdf">(PDF)</a>.
-	  <br>
-	  <a href="https://github.com/LinerSu">Yusen&nbsp;Su</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-	  <a href="https://igcontreras.github.io/">I.&nbsp;Garcia-Contreras</a>.
-	  <br>
-	  <a href="https://conf.researchr.org/home/VMCAI-2025">VMCAI'25</a>.
-	  This is a <a href="https://www.youtube.com/watch?v=pZayAZ_0fj4">video</a> of the talk at VMCAI'25.
-	</li>
+	  
+	  <li>
+	    <span class="paper">Automatic Inference of Relational Object Invariants</span>
+	    <a href="papers/ObjectDomain_VMCAI2025.pdf">(PDF)</a>.
+	    <br>
+	    <a href="https://github.com/LinerSu">Yusen&nbsp;Su</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+	    <a href="https://igcontreras.github.io/">I.&nbsp;Garcia-Contreras</a>.
+	    <br>
+	    <a href="https://conf.researchr.org/home/VMCAI-2025">VMCAI'25</a>.
+	    This is a <a href="https://www.youtube.com/watch?v=pZayAZ_0fj4">video</a> of the talk at VMCAI'25.
+	  </li>
 
-		
-	<li>
-	  <b>Inductive Predicate Synthesis Modulo Programs</b>
-	  <a href="papers/ECOOP_2024_IPSMP.pdf">(PDF)</a>.
-	  <br>
-	  Scott&nbsp;Wesley,
-	  <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  
-	  <a href="https://cs.uwaterloo.ca/~trefler/">R.&nbsp;Trefler</a>,
-	  <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>,
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>
-	  <br>
-	  <a href="https://2024.ecoop.org">ECOOP'24</a>.	  
-	</li>
+	  
+	  <li>
+	    <span class="paper">Inductive Predicate Synthesis Modulo Programs</span>
+	    <a href="papers/ECOOP_2024_IPSMP.pdf">(PDF)</a>.
+	    <br>
+	    Scott&nbsp;Wesley,
+	    <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  
+	    <a href="https://cs.uwaterloo.ca/~trefler/">R.&nbsp;Trefler</a>,
+	    <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>,
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>
+	    <br>
+	    <a href="https://2024.ecoop.org">ECOOP'24</a>.	  
+	  </li>
 
 
-	<li>
-	  <b>Efficient Modular SMT-Based Model Checking of Pointer Programs</b>
-	  <a href="papers/seahorn-modular-encoding-SAS22.pdf">(PDF)</a>.
-	  <br>
-	  <a href="https://igcontreras.github.io/">I.&nbsp;Garcia-Contreras</a>,
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>
-	  <br>
-	  <a href="https://conf.researchr.org/home/sas-2022">SAS'22</a>.	  
-	</li>
+	  <li>
+	    <span class="paper">Efficient Modular SMT-Based Model Checking of Pointer Programs</span>
+	    <a href="papers/seahorn-modular-encoding-SAS22.pdf">(PDF)</a>.
+	    <br>
+	    <a href="https://igcontreras.github.io/">I.&nbsp;Garcia-Contreras</a>,
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>
+	    <br>
+	    <a href="https://conf.researchr.org/home/sas-2022">SAS'22</a>.	  
+	  </li>
 
-	
-	<li>
-	  <b>Verifying Solidity Smart Contracts Via Communication Abstraction in SmartACE</b>
-	  <a href="papers/smartace-VMCAI22.pdf">(PDF)</a>.
-	  <br>
-	  Scott&nbsp;Wesley,
-	  <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="https://cs.uwaterloo.ca/~trefler/">R.&nbsp;Trefler</a>,
-	  <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>.	  
-	  <br> <a href="https://popl22.sigplan.org/home/VMCAI-2022">VMCAI'22</a>.	  
-	</li>
-	
-	<li>
-	  <b>Compositional Verification of Smart Contracts Through Communication Abstraction</b>
-	  <a href="papers/smartace-SAS21.pdf">(PDF)</a>.	  	  
-	  <br>
-	  Scott&nbsp;Wesley,
-	  <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="https://cs.uwaterloo.ca/~trefler/">R.&nbsp;Trefler</a>,
-	  <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>.	  
-	  <br> <a href="https://conf.researchr.org/home/sas-2021">SAS'21</a>.	  
-	</li>
+	  
+	  <li>
+	    <span class="paper">Verifying Solidity Smart Contracts Via Communication Abstraction in SmartACE</span>
+	    <a href="papers/smartace-VMCAI22.pdf">(PDF)</a>.
+	    <br>
+	    Scott&nbsp;Wesley,
+	    <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="https://cs.uwaterloo.ca/~trefler/">R.&nbsp;Trefler</a>,
+	    <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>.	  
+	    <br> <a href="https://popl22.sigplan.org/home/VMCAI-2022">VMCAI'22</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Compositional Verification of Smart Contracts Through Communication Abstraction</span>
+	    <a href="papers/smartace-SAS21.pdf">(PDF)</a>.	  	  
+	    <br>
+	    Scott&nbsp;Wesley,
+	    <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="https://cs.uwaterloo.ca/~trefler/">R.&nbsp;Trefler</a>,
+	    <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>.	  
+	    <br> <a href="https://conf.researchr.org/home/sas-2021">SAS'21</a>.	  
+	  </li>
 
-	<li>
-	  <b>Disjunctive Interval Analysis</b>
-	  <a href="papers/rdd-boxes-SAS21.pdf">(PDF)</a>.	  
-	  <br> 
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="https://conf.researchr.org/home/sas-2021">SAS'21</a>.	  
-	</li>
-	
-	<li>
-	  <b>Abstract Interpretation of LLVM with a Region-Based Memory Model</b>
-	  <a href="papers/rbmm-VSTTE21.pdf">(PDF)</a>.
-	  <br>
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>
-	  <br> <a href="http://verify.inf.usi.ch/VSTTE21">VSTTE'21</a>.
-	  These are the <a href="https://zenodo.org/record/5129227#.YpUIT1NME80"> scripts</a> to reproduce the experimental evaluation.
-	</li>
+	  <li>
+	    <span class="paper">Disjunctive Interval Analysis</span>
+	    <a href="papers/rdd-boxes-SAS21.pdf">(PDF)</a>.	  
+	    <br> 
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="https://conf.researchr.org/home/sas-2021">SAS'21</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Abstract Interpretation of LLVM with a Region-Based Memory Model</span>
+	    <a href="papers/rbmm-VSTTE21.pdf">(PDF)</a>.
+	    <br>
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>
+	    <br> <a href="http://verify.inf.usi.ch/VSTTE21">VSTTE'21</a>.
+	    These are the <a href="https://zenodo.org/record/5129227#.YpUIT1NME80"> scripts</a> to reproduce the experimental evaluation.
+	  </li>
 
-	<li>
-	  <b>Automated Safety Verification of Programs Invoking Neural Networks</b>
-	  <a href="papers/NPA-cav2021.pdf">(PDF)</a>.
-	  <br>
-	  <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
-	  H. Ferit Eniser,
-	  H. Hermanns,
-	  J. Hoffmann,
-	  Y. Kothari,
-	  Jianlin Li,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  	  
-	  <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>.
-	  <br> <a href="http://i-cav.org/2021/">CAV'21</a>.
-	  The code is available <a href="https://github.com/Practical-Formal-Methods/clam-racetrack"> here</a>, and the benchmarks <a href="https://github.com/Practical-Formal-Methods/Racetrack-Benchmark"> here</a>.
-	</li>
-	
-	<li>
-	  <b>Automatically Tailoring Abstract Interpretation to Custom Usage Scenarios</b>
-	  <a href="papers/tailor_cav2021.pdf">(PDF)</a>.
-	  <br>
-	  <a href="https://numairmansur.github.io/">M.&nbsp;N.&nbsp;Mansur</a>,
-	  <a href="https://bmarwritescode.github.io/"> B.&nbsp; Mariano</a>,
-	  <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  	  
-	  <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>.
-	  <br> <a href="http://i-cav.org/2021/">CAV'21</a>.
-	  The code is available <a href="https://github.com/Practical-Formal-Methods/tailor"> here</a>.	  
-	</li>
+	  <li>
+	    <span class="paper">Automated Safety Verification of Programs Invoking Neural Networks</span>
+	    <a href="papers/NPA-cav2021.pdf">(PDF)</a>.
+	    <br>
+	    <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
+	    H. Ferit Eniser,
+	    H. Hermanns,
+	    J. Hoffmann,
+	    Y. Kothari,
+	    Jianlin Li,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  	  
+	    <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>.
+	    <br> <a href="http://i-cav.org/2021/">CAV'21</a>.
+	    The code is available <a href="https://github.com/Practical-Formal-Methods/clam-racetrack"> here</a>, and the benchmarks <a href="https://github.com/Practical-Formal-Methods/Racetrack-Benchmark"> here</a>.
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Automatically Tailoring Abstract Interpretation to Custom Usage Scenarios</span>
+	    <a href="papers/tailor_cav2021.pdf">(PDF)</a>.
+	    <br>
+	    <a href="https://numairmansur.github.io/">M.&nbsp;N.&nbsp;Mansur</a>,
+	    <a href="https://bmarwritescode.github.io/"> B.&nbsp; Mariano</a>,
+	    <a href="https://mariachris.github.io/index.html">M.&nbsp;Christakis</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  	  
+	    <a href="http://www.wuestholz.com/">V.&nbsp;Wustholz</a>.
+	    <br> <a href="http://i-cav.org/2021/">CAV'21</a>.
+	    The code is available <a href="https://github.com/Practical-Formal-Methods/tailor"> here</a>.	  
+	  </li>
 
-	<li>
-	  <b>A Fresh Look at Zones and Octagons</b>
-	  <a href="papers/ACM_TOPLAS_zones_octagons.pdf">(PDF)</a>.
-	  <br> 
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  Zequn Ma,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="https://toplas.acm.org/">ACM TOPLAS</a> Volume 43, Issue 3 September 2021.	  
-	</li>
-	
-	<li>
-	  <b>Verification of an Optimized NTT Algorithm</b> 
-          <a href="papers/ntt-VSTTE20.pdf">(PDF)</a>.
-	  <br>
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  
-	  <a href="https://brunodutertre.github.io/">B.&nbsp;Dutertre</a>,
-	  <a href="http://www.csl.sri.com/people/mason/">I.&nbsp;Mason</a>,
-          <br> <a href="https://sri-csl.github.io/VSTTE20/">VSTTE'20</a>.
-	  The code of the verifier is available <a href="https://github.com/SRI-CSL/NTT/tree/master/verifier"> here</a>.
-	</li>
+	  <li>
+	    <span class="paper">A Fresh Look at Zones and Octagons</span>
+	    <a href="papers/ACM_TOPLAS_zones_octagons.pdf">(PDF)</a>.
+	    <br> 
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    Zequn Ma,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="https://toplas.acm.org/">ACM TOPLAS</a> Volume 43, Issue 3 September 2021.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Verification of an Optimized NTT Algorithm</span> 
+            <a href="papers/ntt-VSTTE20.pdf">(PDF)</a>.
+	    <br>
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  
+	    <a href="https://brunodutertre.github.io/">B.&nbsp;Dutertre</a>,
+	    <a href="http://www.csl.sri.com/people/mason/">I.&nbsp;Mason</a>,
+            <br> <a href="https://sri-csl.github.io/VSTTE20/">VSTTE'20</a>.
+	    The code of the verifier is available <a href="https://github.com/SRI-CSL/NTT/tree/master/verifier"> here</a>.
+	  </li>
 
-	<li>
-	  <b>Dissecting Widening: Separating Termination from Information</b> 
-          <a href="papers/isolated-widening-APLAS19.pdf">(PDF)</a>.
-	  <br>
-	  <b style="color:red"> **Distinguished Paper Award**</b>	  
-	  <br>  
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-          <br> <a href="https://conf.researchr.org/home/aplas-2019">APLAS'19</a>.
-	</li>
-	
-	
-	<li>
-	  <b>Unification-based Pointer Analysis without Oversharing</b>
-	  <a href="papers/tea-dsa-fmcad19.pdf">(PDF)</a>.
-          <br>
-	  <a href="https://ca.linkedin.com/in/jakubkuderski">J.&nbsp;Kuderski</a>,
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>.
-	  <br> <a href="https://fmcad.forsyte.at/FMCAD19/">FMCAD'19</a>. 	  
-	</li>
-	
-	<li>
-	  <b>Simple and Precise Static Analysis of Untrusted Linux Kernel Extensions</b>
-	  <a href="papers/ebpf-pldi19.pdf">(PDF)</a>.
-	  <br> E. Gershuni, N. Amit,
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>, N. Narodytska,
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  N. Rinetzky, L. Ryzhyk and M. Sagiv.
-          <br><a href="https://pldi19.sigplan.org/">PLDI'19</a>. 	  	  
-	</li>
-	<li>
-	  <b>Generating Component Interfaces by Integrating Static and Symbolic Analysis, Learning, and Runtime Monitoring</b>	  
-	  <a href="papers/interface-generation-isola18.pdf">(PDF)</a>.
-	  <br> Falk Howard, Dimitra Giannakopoulou, Malte Maus, 
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
-	  <br> <a href="http://www.isola-conference.org/isola2018/">ISoLA'18</a>. 	  
-	</li>
-	
-	<li>
-	  <b>Executable Counterexamples in Software Model Checking</b>
-	  <a href="papers/seahorn-cex-vstte18.pdf">(PDF)</a>.
-	  <br>
-	  J.&nbsp;Gennari,	  
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-          <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  E.&nbsp;J.&nbsp;Schwartz.
-          <br> <a href="http://vstte18.it.uu.se/">VSTTE'18</a>.  <a href="https://www.youtube.com/watch?v=3Mx2WKFbLus">Video 1</a>(3m51s) &nbsp; <a href="https://www.youtube.com/watch?v=ct1X6pmnqk0">Video 2</a>(4m37s).	  
-	</li>
-	
-  	<li>
-	  <b>Verification of Fault-Tolerant Protocols with Sally</b>
-	  <a href="papers/dutertre-nfm2018.pdf">(PDF)</a>.
-	  <br>
-	  <a href="https://brunodutertre.github.io/">B.&nbsp;Dutertre</a>,
-	  <a href="https://dddejan.github.io/">D.&nbsp;Jovanovic</a>, 
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
-	  <br> <a href="https://shemesh.larc.nasa.gov/NFM2018/">NFM'18</a>.	  
-	</li>
-	
-	<li>
-	  <b>A Context-Sensitive Memory Model for Verification of C/C++ Programs</b>
-	  <a href="papers/sea-dsa-SAS17.pdf">(PDF)</a>.
-          <br> 	  
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
-	  <br> <a href="http://staticanalysis.org/sas2017/sas2017.html">SAS'17</a>. 	  
-	</li>
-	
-	<li>
-	  <b>Exploiting Sparsity in Difference-Bound Matrices</b> 
-          <a href="papers/zones-SAS16.pdf">(PDF)</a>. 
-	  <br>  
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-          <br> <a href="http://staticanalysis.org/sas2016/">SAS'16</a>.	  
-	</li>
-	
-	<li>
-	  <b>An Abstract Domain of Uninterpreted Functions</b>
-	  <a href="papers/terms-vmcai16.pdf">(PDF)</a>.
-	  <br>  
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="http://conf.researchr.org/home/VMCAI-2016">VMCAI'16</a>.	  
-	</li>
+	  <li>
+	    <span class="paper">Dissecting Widening: Separating Termination from Information</span> 
+            <a href="papers/isolated-widening-APLAS19.pdf">(PDF)</a>.
+	    <br>
+	    <span class="award">**Distinguished Paper Award**</span>	  
+	    <br>  
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+            <br> <a href="https://conf.researchr.org/home/aplas-2019">APLAS'19</a>.
+	  </li>
+	  
+	  
+	  <li>
+	    <span class="paper">Unification-based Pointer Analysis without Oversharing</span>
+	    <a href="papers/tea-dsa-fmcad19.pdf">(PDF)</a>.
+            <br>
+	    <a href="https://ca.linkedin.com/in/jakubkuderski">J.&nbsp;Kuderski</a>,
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>.
+	    <br> <a href="https://fmcad.forsyte.at/FMCAD19/">FMCAD'19</a>. 	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Simple and Precise Static Analysis of Untrusted Linux Kernel Extensions</span>
+	    <a href="papers/ebpf-pldi19.pdf">(PDF)</a>.
+	    <br> E. Gershuni, N. Amit,
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>, N. Narodytska,
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    N. Rinetzky, L. Ryzhyk and M. Sagiv.
+            <br><a href="https://pldi19.sigplan.org/">PLDI'19</a>. 	  	  
+	  </li>
+	  <li>
+	    <span class="paper">Generating Component Interfaces by Integrating Static and Symbolic Analysis, Learning, and Runtime Monitoring</span>	  
+	    <a href="papers/interface-generation-isola18.pdf">(PDF)</a>.
+	    <br> Falk Howard, Dimitra Giannakopoulou, Malte Maus, 
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
+	    <br> <a href="http://www.isola-conference.org/isola2018/">ISoLA'18</a>. 	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Executable Counterexamples in Software Model Checking</span>
+	    <a href="papers/seahorn-cex-vstte18.pdf">(PDF)</a>.
+	    <br>
+	    J.&nbsp;Gennari,	  
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+            <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    E.&nbsp;J.&nbsp;Schwartz.
+            <br> <a href="http://vstte18.it.uu.se/">VSTTE'18</a>.  <a href="https://www.youtube.com/watch?v=3Mx2WKFbLus">Video 1</a>&nbsp;(3m51s) &nbsp; <a href="https://www.youtube.com/watch?v=ct1X6pmnqk0">Video 2</a>&nbsp;(4m37s).	  
+	  </li>
+	  
+  	  <li>
+	    <span class="paper">Verification of Fault-Tolerant Protocols with Sally</span>
+	    <a href="papers/dutertre-nfm2018.pdf">(PDF)</a>.
+	    <br>
+	    <a href="https://brunodutertre.github.io/">B.&nbsp;Dutertre</a>,
+	    <a href="https://dddejan.github.io/">D.&nbsp;Jovanovic</a>, 
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
+	    <br> <a href="https://shemesh.larc.nasa.gov/NFM2018/">NFM'18</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">A Context-Sensitive Memory Model for Verification of C/C++ Programs</span>
+	    <a href="papers/sea-dsa-SAS17.pdf">(PDF)</a>.
+            <br> 	  
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
+	    <br> <a href="http://staticanalysis.org/sas2017/sas2017.html">SAS'17</a>. 	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Exploiting Sparsity in Difference-Bound Matrices</span> 
+            <a href="papers/zones-SAS16.pdf">(PDF)</a>. 
+	    <br>  
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+            <br> <a href="http://staticanalysis.org/sas2016/">SAS'16</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">An Abstract Domain of Uninterpreted Functions</span>
+	    <a href="papers/terms-vmcai16.pdf">(PDF)</a>.
+	    <br>  
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="http://conf.researchr.org/home/VMCAI-2016">VMCAI'16</a>.	  
+	  </li>
 
-	<li>
-	  <b>A Complete Refinement Procedure for Regular Separability of Context-Free Languages</b>
-	  <a href="papers/CFG-TCS-2016.pdf">(PDF)</a>.
-	  <br> 
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="https://www.journals.elsevier.com/theoretical-computer-science">TCS</a> 2016.	  
-	</li>
-	
-	<li>
-	  <b>Finding Inconsistencies in Programs with Loops</b>
-	  <a href="papers/inconsistencies-lpar15.pdf">(PDF)</a>.
-	  <br>  
-          <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,         
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,           
-          <a href="https://dddejan.github.io/">D.&nbsp;Jovanovic</a>,
-	  <a href="https://www.martinschaef.de/">M.&nbsp;Sch&auml;f</a>.
-	  <br> <a href="http://www.lpar-20.org/">LPAR'15</a>.
-	</li>
-	
-	<li>
-	  <b>The SeaHorn Verification Framework</b>
-	  <a href="papers/seahorn-cav15.pdf">(PDF)</a>. 
-	  <br> 
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-          <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,      
-          A. &nbsp; Komuravelli,
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
-          <br> <a href="http://i-cav.org/2015/">CAV'15</a>.	  
-	</li>
-	
-	<li>
-	  <b>Horn-Clauses as an Intermediate Representation for Program Analysis and Transformation</b>
-	  <a href="papers/lpvm.pdf">(PDF)</a>.
-	  <br> 
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> ICLP'15.          
-	</li>
-	
-	
-	<li>
-	  <b>A Tool for Intersecting Context-Free Grammars and Its Applications</b>
-	  <a href="papers/cfg_nfm15.pdf">(PDF)</a>.
-	  <br> 
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="http://www.nasaformalmethods.org/nfm2015">NFM'15</a>.	  
-	</li>
-	
-	
-	<li>
-	  <b>SeaHorn: A Framework for Verifying C Programs (Competition Contribution)</b>
-	  <a href="papers/seahorn-svcomp15.pdf">(PDF)</a>.
-	  <br> 
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-          <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,      
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
-	  <br> <a href="https://www.etaps.org/2015/tacas">TACAS'15</a>.	  
-	</li>
-	
-	<li>
-	  <b>Interval Analysis and Machine Arithmetic: Why Signedness Ignorance is Bliss</b>
-	  <a href="papers/ACM-TOPLAS-wrapped.pdf">(PDF)</a>.
-	  <br> 
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="https://toplas.acm.org/">ACM TOPLAS</a> Volume 37, Issue 1 January 2015.	  
-	</li>
-	
-	<li>
-	  <b>Analyzing array manipulating programs by program transformation</b>
-	  <a href="papers/arraytransf_lopstr15.pdf"> (PDF)</a>.
-	  <br> 
-          J.&nbsp;R.&nbsp;Cornish, 
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="http://www.iasi.cnr.it/events/lopstr14/">LOPSTR'14</a>.	  
-	</li>
-	
-	<li>
-	  <b>IKOS: A Framework for Static Analysis based on Abstract Interpretation</b>
-	  <a href="papers/ikos-sefm14.pdf">(PDF)</a>.
-	  <br> 
-	  <a href="http://ti.arc.nasa.gov/profile/brat/">G.&nbsp;Brat</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  N.&nbsp;Shi,
-	  <a href="http://ti.arc.nasa.gov/profile/arnaud/">A.&nbsp;Venet</a>.
-	  <br> <a href="http://sefm2014.inria.fr/">SEFM'14</a>.
-	</li>
-	
-	<li>
-	  <b>Verification of Programs by Combining Iterated Specialization with Interpolation</b> 
-          <a href="papers/hcvs14.pdf"> (PDF)</a>.
-	  <br> 
-	  <a href="http://www.sci.unich.it/~deangelis/">E.&nbsp;De Angelis</a>,
-          <a href="http://www.sci.unich.it/~fioravan/">F.&nbsp;Fioravanti</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://www.iasi.cnr.it/~proietti/">M.&nbsp;Proietti</a>.
-          <br> <a href="http://vsl2014.at/pages/HCVS-index.html">HCVS'14</a>.	  
-	</li>
-	
-	<li>
-	  <b>Abstract Interpretation over Non-Lattice Abstract Domains</b>
-	  <a href="papers/nonlattice-sas13.pdf">(PDF)</a>.
-	  <br>    
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="http://research.microsoft.com/en-us/events/sas2013">SAS'13</a>.	  
-	</li>
-	
-	<li>
-	  <b>Unbounded Model Checking with Interpolation for Regular Language Constraints</b>
-	  <a href="papers/regex-tacas13.pdf">(PDF)</a>.
-	  <br> 
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="http://www.etaps.org/2013/tacas13">TACAS'13</a>.	  
-	</li>
-	
-	<li>
-	  <b>Boosting Concolic Testing with Interpolation</b>
-	  <a href="papers/testingFSE13.pdf">(PDF)</a>.
-	  <br>
-	  <a href="http://www.comp.nus.edu.sg/~joxan">J.&nbsp;Jaffar</a>,
-	  <a href="http://vijay.rice.edu/"> V.&nbsp;Murali</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
-	  <br>  <a href="http://esec-fse.inf.ethz.ch">FSE'13</a>.	  
-	</li>
-	
-	<li>
-	  <b>Failure Tabled Constraint Logic Programming by Interpolation</b>
-	  <a href="papers/ftclp.pdf">(PDF)</a> <a href="papers/ftclp_appendix.pdf">(PDF appendix)</a>.
-	  <br>  
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="http://www.iclp2013.org">ICLP'13</a>.	  
-	</li>
-	
-	<li>
-	  <b>Modelling Destructive Assignments</b>
-	  <a href="papers/DestAssignmentsCP13.pdf">(PDF)</a>.
-	  <br>
-	  K.&nbsp; Francis,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br> <a href="http://cp2013.a4cp.org">CP'13</a>.	  
-	</li>
-	
-	<li>
-	  <b>Signedness-Agnostic Program Analysis: Precise Integer Bounds for Low-Level Code</b>
-	  <a href="papers/wrapped-intervals-aplas12.pdf">(PDF)</a>.           
-	  <br>  
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	  <br>  <a href="http://aplas12.kuis.kyoto-u.ac.jp">APLAS'12</a>.	  
-	</li>
-	
-	<li>
-	  <b>TRACER: A Symbolic Execution Tool for Verification</b>
-	  <a href="papers/TRACER_CAV12.pdf">(PDF)</a>.
-	  <br>
-	  <a href="http://www.comp.nus.edu.sg/~joxan">J.&nbsp;Jaffar</a>,
-	  <a href="http://vijay.rice.edu/"> V.&nbsp;Murali</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://labs.oracle.com/pls/apex/f?p=labs:bio:0:747">A.&nbsp;E.&nbsp;Santosa</a>.
-	  <br><a href="http://cav12.cs.illinois.edu">CAV'12</a>.	  
-	</li>
-	
-	<li>
-	  <b>Path-Sensitive Backward Slicing</b>
-	  <a href="papers/BackwardSlicing-SAS12.pdf">(PDF)</a>.
-	  <br>
-	  <a href="http://www.comp.nus.edu.sg/~joxan">J.&nbsp;Jaffar</a>,
-	  <a href="http://vijay.rice.edu/"> V.&nbsp;Murali</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://labs.oracle.com/pls/apex/f?p=labs:bio:0:747">A.&nbsp;E.&nbsp;Santosa</a>.
-	  <br> <a href="http://www.sas2012.ens.fr">SAS'12</a>.	  
-	</li>
-	
-	<li>
-	  <b>Unbounded Symbolic Execution for Program Verification</b>
-	  <a href="papers/JaffarNavasSantosaRV11.pdf">(PDF)</a>. 
-	  <br> <a href="http://rv2011.eecs.berkeley.edu/Home.html">RV'11</a>.
-	  <br>
-	  <a href="http://www.comp.nus.edu.sg/~joxan">J.&nbsp;Jaffar</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://labs.oracle.com/pls/apex/f?p=labs:bio:0:747">A.&nbsp;E.&nbsp;Santosa</a>.
-	</li>
-	
-	<li>
-	  <b>Negative Ternary Set-Sharing</b>
-	  <a href="papers/negsharing-iclp08.pdf">(PDF)</a>.
-	  <br>  
-	  E.&nbsp;Trias,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://www.cs.unm.edu/~elenas">E.&nbsp;S.&nbsp;Ackley</a>,
-	  <a href="http://www.cs.unm.edu/~forrest">S.&nbsp;Forrest</a>,
-	  <a href="http://www.clip.dia.fi.upm.es/~herme">M.&nbsp;Hermenegildo</a>.
-	  <br>  <a href="http://iclp08.dimi.uniud.it/index.php">ICLP'08</a>.	  
-	</li>
-	
-	<li>
-	  <b>User-Definable Resource Bounds Analysis for Logic Programs</b>
-	  <a href="papers/rua-iclp07.pdf">(PDF)</a>.
-	  <br>
-	  <b style="color:red"> **Test of Time Award (10 years)**</b>
-	  <br> 
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>, 
-	  <a href="http://www.clip.dia.fi.upm.es/~edison">E.&nbsp;Mera</a>, 
-	  <a href="http://www.clip.dia.fi.upm.es/~pedro">
-	    P. Lopez-Garcia</a>, 
-	  <a href="http://www.clip.dia.fi.upm.es/~herme">M. Hermenegildo</a>.
-	  <br> <a href="http://www.dcc.fc.up.pt/iclp07/">ICLP'07</a>.
-	</li>
-	
-	<li>
-	  <b>A Flexible, (C)LP-based Approach to the Analysis of Object-Oriented Programs</b>
-	  <a href="papers/decomp-oo-prolog-lopstr07.pdf">(PDF)</a>.
-	  <br> 
-	  <a href="http://www.clip.dia.fi.upm.es/~mario">M.&nbsp;Mendez-Lojo</a>, 
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://www.clip.dia.fi.upm.es/~herme">M.&nbsp;Hermenegildo</a>.
-	  <br>  <a href="http://www.cs.kent.ac.uk/events/conf/2007/lopstr/">LOPSTR'07</a>.	  
-	</li>
-	
-	<li>
-	  <b>Efficient, Parametric Fixpoint Algorithm for Analysis of Java Bytecode</b>
-	  <a href="papers/fixpt-javabytecode-bytecode07.pdf">(PDF)</a>.
-	  <br>
-	  <a href="http://www.clip.dia.fi.upm.es/~mario">M.&nbsp;Mendez-Lojo</a>, 
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://www.clip.dia.fi.upm.es/~herme">M.&nbsp;Hermenegildo</a>.
-	  <br> <a href="http://profs.sci.univr.it/~spoto/Bytecode07/"> BYTECODE'07</a>.	  
-	</li>
-	
-	<li>
-	  <b>Efficient top-down set-sharing analysis using cliques</b>
-	  <a href="papers/shcliques-padl06.pdf">(PDF)</a>.
-	  <br>
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>, 
-	  <a href="http://www.clip.dia.fi.upm.es/~bueno">F.&nbsp;Bueno</a>, 
-	  <a href="http://www.clip.dia.fi.upm.es/~herme">M.&nbsp;Hermenegildo</a> .
-	  <br>  <a href="http://www.cs.brown.edu/people/pvh/PADL06.html">PADL'06</a>.	  
-	</li>
-      </ol>
+	  <li>
+	    <span class="paper">A Complete Refinement Procedure for Regular Separability of Context-Free Languages</span>
+	    <a href="papers/CFG-TCS-2016.pdf">(PDF)</a>.
+	    <br> 
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="https://www.journals.elsevier.com/theoretical-computer-science">TCS</a> 2016.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Finding Inconsistencies in Programs with Loops</span>
+	    <a href="papers/inconsistencies-lpar15.pdf">(PDF)</a>.
+	    <br>  
+            <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,         
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,           
+            <a href="https://dddejan.github.io/">D.&nbsp;Jovanovic</a>,
+	    <a href="https://www.martinschaef.de/">M.&nbsp;Sch&auml;f</a>.
+	    <br> <a href="http://www.lpar-20.org/">LPAR'15</a>.
+	  </li>
+	  
+	  <li>
+	    <span class="paper">The SeaHorn Verification Framework</span>
+	    <a href="papers/seahorn-cav15.pdf">(PDF)</a>. 
+	    <br> 
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+            <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,      
+            A. &nbsp; Komuravelli,
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
+            <br> <a href="http://i-cav.org/2015/">CAV'15</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Horn-Clauses as an Intermediate Representation for Program Analysis and Transformation</span>
+	    <a href="papers/lpvm.pdf">(PDF)</a>.
+	    <br> 
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> ICLP'15.          
+	  </li>
+	  
+	  
+	  <li>
+	    <span class="paper">A Tool for Intersecting Context-Free Grammars and Its Applications</span>
+	    <a href="papers/cfg_nfm15.pdf">(PDF)</a>.
+	    <br> 
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="http://www.nasaformalmethods.org/nfm2015">NFM'15</a>.	  
+	  </li>
+	  
+	  
+	  <li>
+	    <span class="paper">SeaHorn: A Framework for Verifying C Programs (Competition Contribution)</span>
+	    <a href="papers/seahorn-svcomp15.pdf">(PDF)</a>.
+	    <br> 
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+            <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,      
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
+	    <br> <a href="https://www.etaps.org/2015/tacas">TACAS'15</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Interval Analysis and Machine Arithmetic: Why Signedness Ignorance is Bliss</span>
+	    <a href="papers/ACM-TOPLAS-wrapped.pdf">(PDF)</a>.
+	    <br> 
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="https://toplas.acm.org/">ACM TOPLAS</a> Volume 37, Issue 1 January 2015.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Analyzing array manipulating programs by program transformation</span>
+	    <a href="papers/arraytransf_lopstr15.pdf"> (PDF)</a>.
+	    <br> 
+            J.&nbsp;R.&nbsp;Cornish, 
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="http://www.iasi.cnr.it/events/lopstr14/">LOPSTR'14</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">IKOS: A Framework for Static Analysis based on Abstract Interpretation</span>
+	    <a href="papers/ikos-sefm14.pdf">(PDF)</a>.
+	    <br> 
+	    <a href="http://ti.arc.nasa.gov/profile/brat/">G.&nbsp;Brat</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    N.&nbsp;Shi,
+	    <a href="http://ti.arc.nasa.gov/profile/arnaud/">A.&nbsp;Venet</a>.
+	    <br> <a href="http://sefm2014.inria.fr/">SEFM'14</a>.
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Verification of Programs by Combining Iterated Specialization with Interpolation</span> 
+            <a href="papers/hcvs14.pdf"> (PDF)</a>.
+	    <br> 
+	    <a href="http://www.sci.unich.it/~deangelis/">E.&nbsp;De Angelis</a>,
+            <a href="http://www.sci.unich.it/~fioravan/">F.&nbsp;Fioravanti</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://www.iasi.cnr.it/~proietti/">M.&nbsp;Proietti</a>.
+            <br> <a href="http://vsl2014.at/pages/HCVS-index.html">HCVS'14</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Abstract Interpretation over Non-Lattice Abstract Domains</span>
+	    <a href="papers/nonlattice-sas13.pdf">(PDF)</a>.
+	    <br>    
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="http://research.microsoft.com/en-us/events/sas2013">SAS'13</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Unbounded Model Checking with Interpolation for Regular Language Constraints</span>
+	    <a href="papers/regex-tacas13.pdf">(PDF)</a>.
+	    <br> 
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="http://www.etaps.org/2013/tacas13">TACAS'13</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Boosting Concolic Testing with Interpolation</span>
+	    <a href="papers/testingFSE13.pdf">(PDF)</a>.
+	    <br>
+	    <a href="http://www.comp.nus.edu.sg/~joxan">J.&nbsp;Jaffar</a>,
+	    <a href="http://vijay.rice.edu/"> V.&nbsp;Murali</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
+	    <br>  <a href="http://esec-fse.inf.ethz.ch">FSE'13</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Failure Tabled Constraint Logic Programming by Interpolation</span>
+	    <a href="papers/ftclp.pdf">(PDF)</a> <a href="papers/ftclp_appendix.pdf">(PDF appendix)</a>.
+	    <br>  
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="http://www.iclp2013.org">ICLP'13</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Modelling Destructive Assignments</span>
+	    <a href="papers/DestAssignmentsCP13.pdf">(PDF)</a>.
+	    <br>
+	    K.&nbsp; Francis,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br> <a href="http://cp2013.a4cp.org">CP'13</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Signedness-Agnostic Program Analysis: Precise Integer Bounds for Low-Level Code</span>
+	    <a href="papers/wrapped-intervals-aplas12.pdf">(PDF)</a>.           
+	    <br>  
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	    <br>  <a href="http://aplas12.kuis.kyoto-u.ac.jp">APLAS'12</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">TRACER: A Symbolic Execution Tool for Verification</span>
+	    <a href="papers/TRACER_CAV12.pdf">(PDF)</a>.
+	    <br>
+	    <a href="http://www.comp.nus.edu.sg/~joxan">J.&nbsp;Jaffar</a>,
+	    <a href="http://vijay.rice.edu/"> V.&nbsp;Murali</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://labs.oracle.com/pls/apex/f?p=labs:bio:0:747">A.&nbsp;E.&nbsp;Santosa</a>.
+	    <br><a href="http://cav12.cs.illinois.edu">CAV'12</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Path-Sensitive Backward Slicing</span>
+	    <a href="papers/BackwardSlicing-SAS12.pdf">(PDF)</a>.
+	    <br>
+	    <a href="http://www.comp.nus.edu.sg/~joxan">J.&nbsp;Jaffar</a>,
+	    <a href="http://vijay.rice.edu/"> V.&nbsp;Murali</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://labs.oracle.com/pls/apex/f?p=labs:bio:0:747">A.&nbsp;E.&nbsp;Santosa</a>.
+	    <br> <a href="http://www.sas2012.ens.fr">SAS'12</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Unbounded Symbolic Execution for Program Verification</span>
+	    <a href="papers/JaffarNavasSantosaRV11.pdf">(PDF)</a>. 
+	    <br> <a href="http://rv2011.eecs.berkeley.edu/Home.html">RV'11</a>.
+	    <br>
+	    <a href="http://www.comp.nus.edu.sg/~joxan">J.&nbsp;Jaffar</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://labs.oracle.com/pls/apex/f?p=labs:bio:0:747">A.&nbsp;E.&nbsp;Santosa</a>.
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Negative Ternary Set-Sharing</span>
+	    <a href="papers/negsharing-iclp08.pdf">(PDF)</a>.
+	    <br>  
+	    E.&nbsp;Trias,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://www.cs.unm.edu/~elenas">E.&nbsp;S.&nbsp;Ackley</a>,
+	    <a href="http://www.cs.unm.edu/~forrest">S.&nbsp;Forrest</a>,
+	    <a href="http://www.clip.dia.fi.upm.es/~herme">M.&nbsp;Hermenegildo</a>.
+	    <br>  <a href="http://iclp08.dimi.uniud.it/index.php">ICLP'08</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">User-Definable Resource Bounds Analysis for Logic Programs</span>
+	    <a href="papers/rua-iclp07.pdf">(PDF)</a>.
+	    <br>
+	    <span class="award">**Test of Time Award (10 years)**</span>
+	    <br> 
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>, 
+	    <a href="http://www.clip.dia.fi.upm.es/~edison">E.&nbsp;Mera</a>, 
+	    <a href="http://www.clip.dia.fi.upm.es/~pedro">
+	      P. Lopez-Garcia</a>, 
+	    <a href="http://www.clip.dia.fi.upm.es/~herme">M. Hermenegildo</a>.
+	    <br> <a href="http://www.dcc.fc.up.pt/iclp07/">ICLP'07</a>.
+	  </li>
+	  
+	  <li>
+	    <span class="paper">A Flexible, (C)LP-based Approach to the Analysis of Object-Oriented Programs</span>
+	    <a href="papers/decomp-oo-prolog-lopstr07.pdf">(PDF)</a>.
+	    <br> 
+	    <a href="http://www.clip.dia.fi.upm.es/~mario">M.&nbsp;Mendez-Lojo</a>, 
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://www.clip.dia.fi.upm.es/~herme">M.&nbsp;Hermenegildo</a>.
+	    <br>  <a href="http://www.cs.kent.ac.uk/events/conf/2007/lopstr/">LOPSTR'07</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Efficient, Parametric Fixpoint Algorithm for Analysis of Java Bytecode</span>
+	    <a href="papers/fixpt-javabytecode-bytecode07.pdf">(PDF)</a>.
+	    <br>
+	    <a href="http://www.clip.dia.fi.upm.es/~mario">M.&nbsp;Mendez-Lojo</a>, 
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://www.clip.dia.fi.upm.es/~herme">M.&nbsp;Hermenegildo</a>.
+	    <br> <a href="http://profs.sci.univr.it/~spoto/Bytecode07/"> BYTECODE'07</a>.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Efficient top-down set-sharing analysis using cliques</span>
+	    <a href="papers/shcliques-padl06.pdf">(PDF)</a>.
+	    <br>
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>, 
+	    <a href="http://www.clip.dia.fi.upm.es/~bueno">F.&nbsp;Bueno</a>, 
+	    <a href="http://www.clip.dia.fi.upm.es/~herme">M.&nbsp;Hermenegildo</a> .
+	    <br>  <a href="http://www.cs.brown.edu/people/pvh/PADL06.html">PADL'06</a>.	  
+	  </li>
+	</ol>
 
-      <h2>  Non-Peer-Reviewed Publications </h2>
-      <ul>
-	<li>
-	  <b>OCCAM-v2: Combining Static and Dynamic Analysis for Effective and Efficient Whole-Program Specialization</b>
-	  <a href="papers/CACM-2023.OCCAMv2.pdf">(PDF)</a>. 
-	  <br>
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  
-          <a href="http://www.csl.sri.com/people/gehani/">A.&nbsp;Gehani</a>.      
-	  <br> <a href="https://dl.acm.org/doi/abs/10.1145/3583112">Communications of the ACM</a> Volume 66, Issue 4, pp 40–47, April 2023.	  
-	</li>
+
+	<h2>  Non-Peer-Reviewed Publications </h2>
+	<ul>
+	  <li>
+	    <span class="paper">OCCAM-v2: Combining Static and Dynamic Analysis for Effective and Efficient Whole-Program Specialization</span>
+	    <a href="papers/CACM-2023.OCCAMv2.pdf">(PDF)</a>. 
+	    <br>
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,	  
+            <a href="http://www.csl.sri.com/people/gehani/">A.&nbsp;Gehani</a>.      
+	    <br> <a href="https://dl.acm.org/doi/abs/10.1145/3583112">Communications of the ACM</a> Volume 66, Issue 4, pp 40–47, April 2023.	  
+	  </li>
+	  
+	  <li>
+	    <span class="paper">Algorithmic Logic-Based Verification</span>
+	    <a href="papers/seahorn-siglog15.pdf">(PDF)</a>. 
+	    <br> 
+	    <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
+            <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,      
+            <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
+	    <br> ACM Special Interest Group on Logic and Computation <a href="http://siglog.hosting.acm.org/">(SIGLOG)</a> April, 2015.	  
+	  </li>
+	</ul>      
 	
-	<li>
-	  <b>Algorithmic Logic-Based Verification</b>
-	  <a href="papers/seahorn-siglog15.pdf">(PDF)</a>. 
-	  <br> 
-	  <a href="https://arieg.bitbucket.io/">A.&nbsp;Gurfinkel</a>,
-          <a href="http://www.lememta.info/">T.&nbsp;Kahsai</a>,      
-          <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>.
-	  <br> ACM Special Interest Group on Logic and Computation <a href="http://siglog.hosting.acm.org/">(SIGLOG)</a> April, 2015.	  
-	</li>
-      </ul>      
-      
-      <h2>  Unpublished Technical Reports </h2>
-      <ul>
-	<li>
-	  <b>A Partial-Order Approach to Array Content Analysis</b>
-	  <a href="https://arxiv.org/abs/1408.1754">(PDF)</a>.
-	  <br> 
-	  <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
-	  <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
-	  <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
-	  <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
-	  <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
-	</li>
-      </ul>      
+	<h2>  Unpublished Technical Reports </h2>
+	<ul>
+	  <li>
+	    <span class="paper">A Partial-Order Approach to Array Content Analysis</span>
+	    <a href="https://arxiv.org/abs/1408.1754">(PDF)</a>.
+	    <br> 
+	    <a href="https://people.eng.unimelb.edu.au/gkgange/">G.&nbsp;Gange</a>,
+	    <a href="https://jorgenavas.github.io/">J.&nbsp;A.&nbsp;Navas</a>,
+	    <a href="http://people.eng.unimelb.edu.au/schachte/">P.&nbsp;Schachte</a>,
+	    <a href="http://people.eng.unimelb.edu.au/harald/">H.&nbsp;Sondergaard</a>,
+	    <a href="http://people.eng.unimelb.edu.au/pstuckey/">P.&nbsp;J.&nbsp;Stuckey</a>.
+	  </li>
+	</ul>      
 	
 	<h2> Doctoral Dissertation </h2> 
 	<ul>
@@ -838,10 +849,12 @@
 	  </li>   
 	</ul>
 	
+      </section>
+    </main>
 
-     <div id="footer">
-     Last modified March 2025
-     </div>
+    <div id="footer">
+      Last modified December 2025
+    </div>
 
 
 </body>
