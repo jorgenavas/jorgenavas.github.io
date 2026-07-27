@@ -172,3 +172,13 @@ details p {
       font-size: 15pt; /* ensure collapsible items also scale */      
   }
 }
+
+.badge-try {
+  background: #e8f0fe;
+  color: #1a73e8;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 8px;
+  margin-left: 6px;
+}
