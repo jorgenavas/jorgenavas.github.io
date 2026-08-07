@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5 {
     margin: 0.8em 0 0.4em 0;
 }
 h1, h2 {
-    color: #33acff;
+    color: #174ea6; /* 7.5:1 on #fafafa (was #33acff, 2.4:1 — failed WCAG AA) */
 }
 h3, h4, h5 {  /* unused */
     color: #000;
@@ -60,7 +60,7 @@ h3, h4, h5 {  /* unused */
 
 /* ===== Links ===== */
 a {
-  color: #33c7ff;
+  color: #1967d2; /* 5.1:1 on #fafafa (was #33c7ff, 1.9:1 — failed WCAG AA) */
   text-decoration: none;
 }
 a:hover, a:focus {
