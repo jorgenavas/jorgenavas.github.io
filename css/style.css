@@ -95,7 +95,7 @@ th, td {
 }
 
 /* ===== Footer ===== */
-.footer {
+#footer { /* was .footer, which never matched <div id="footer"> */
   font-size: small;
   display: block;
   padding: 1em 0;
