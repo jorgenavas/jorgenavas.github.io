@@ -46,8 +46,29 @@ h3, h4, h5 {  /* unused */
 
 /* ===== Special labels ===== */
 
+/* Titles are separated from authors and venue by contrast rather than
+   weight: body text is #555, so a darker grey makes them the first
+   thing the eye lands on without adding bulk to a long list. */
 .paper {
-    /* font-weight: bold; */
+    color: #000;
+}
+
+/* My own name in author lists. Used to be a link back to this page,
+   which went nowhere and left me indistinguishable from co-authors.
+   Darker than the #555 body text but lighter than the titles, so it
+   stands out in a line without competing with them. */
+.me {
+    color: #333;
+    font-style: italic;
+}
+
+/* The (PDF) marker appears in every entry, so its presence carries no
+   information. Smaller and muted so it recedes behind the title
+   instead of competing with it. #666 keeps it above the 4.5:1 contrast
+   floor even at this size. */
+a.pdflink {
+    font-size: 0.85em;
+    color: #666;
 }
 
 /* .badge-award lives with the other badges near the end of this file */
